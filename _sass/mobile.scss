@@ -4,6 +4,7 @@
 @import "typography";
 @import "reset";
 @import "pygments";
+@import "bourbon-nav";
 
 p {
   margin-bottom: 1em;
@@ -62,7 +63,7 @@ header {
             @include transition(.25s);
           }
 
-          &.examples {
+          &.secondary {
             @include linear-gradient(#53aee0, darken(#53aee0, 10%));
             border: 1px solid darken(#53aee0, 30%);
             color: #FFF;
